@@ -3,11 +3,9 @@ import math
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
-# إعداد الرادار
 radar_range = 80000  # 50 km
 radar_x, radar_y = 0, 0
 
-# إعداد الصواريخ
 missiles = [
     {'name': 'Fattah-1', 'x': 200000, 'y': 250000, 'speed_x': -5100, 'speed_y': -5100, 'color': 'blue', 'hit': False},
     {'name': 'Rezvan', 'x': 210000, 'y': 240000, 'speed_x': -4400, 'speed_y': -4300, 'color': 'green', 'hit': False},
